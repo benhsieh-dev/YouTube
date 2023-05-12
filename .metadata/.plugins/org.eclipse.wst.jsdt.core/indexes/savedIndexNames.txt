@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Volumes/T5_1TB_SSD/Spring MVC JSP/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+731775448.index
+677439961.index
+475774475.index
+487244482.index
+1640289069.index
+2808975655.index
