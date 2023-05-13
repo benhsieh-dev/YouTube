@@ -16,9 +16,6 @@ public class YouTube extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-		String[] videoCategories = {"sports", "finance", "software developments"};
-		request.setAttribute("videoCategories", videoCategories);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("youtube.jsp");
 		dispatcher.forward(request, response);

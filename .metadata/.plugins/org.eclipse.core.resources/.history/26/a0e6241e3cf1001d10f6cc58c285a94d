@@ -8,9 +8,7 @@
 <title>youtube.com</title>
 </head>
 <body>
-	<c:forEach var="items" items="${videoCategories}">
-		${items}
-	</c:forEach>
+	<p>YouTube videos</p>
 
 </body>
 </html>
