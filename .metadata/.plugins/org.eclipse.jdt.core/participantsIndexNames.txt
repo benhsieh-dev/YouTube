@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 /Volumes/T5_1TB_SSD/Spring MVC JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3289442920.index
 /youtube/src
+/Volumes/T5_1TB_SSD/Spring MVC JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3110838537.index
+/youtube/src
