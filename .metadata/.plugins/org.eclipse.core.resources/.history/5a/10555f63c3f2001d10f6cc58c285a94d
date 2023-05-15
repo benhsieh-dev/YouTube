@@ -11,7 +11,7 @@ import java.util.List;
 
 public class VideosDbUtil {
 	
-	public static List<Video> getVideosList() throws ClassNotFoundException, SQLException 
+	public static List<Video> getVideoList() throws ClassNotFoundException, SQLException 
 	{
 		String url = "jdbc:mysql://localhost:3306/YouTube?useSSL=false";
 		String userName = "root";
@@ -38,7 +38,7 @@ public class VideosDbUtil {
 			String src = rs.getString(3); 
 			Video v = new Video(id, category, src); 
 			
-			videos.add(v); 
+			videos.add(video); 
 		}
 		
 		

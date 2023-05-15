@@ -1,0 +1,32 @@
+package com.fullstack.youtube;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class VideosDbUtil {
+	
+	public static List<Video> getVideoList() throws ClassNotFoundException, SQLException 
+	{
+		String url = "jdbc:mysql://localhost:3306/YouTube?useSSL=false";
+		String userName = "root";
+		String password = "";
+		
+		
+		ArrayList<Video> video = new ArrayList<>();
+		
+		// load mysql driver
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		// get the connection
+		Connection con = DriverManager.getConnection(url, userName, password); 
+		
+		// create a statement
+		
+		
+		// execute the statement and look over the result set
+		return video; 
+	}
+
+}

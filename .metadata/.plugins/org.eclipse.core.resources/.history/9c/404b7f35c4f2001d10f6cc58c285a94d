@@ -22,10 +22,8 @@ public class YouTube extends HttpServlet {
 //		String[] videoCategories = {"sports", "finance", "software developments"};
 //		request.setAttribute("videoCategories", videoCategories);
 		
-		
 		try {
 			List<Video> videoItems = VideosDbUtil.getVideosList();
-			request.setAttribute("videoItems", videoItems);
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
