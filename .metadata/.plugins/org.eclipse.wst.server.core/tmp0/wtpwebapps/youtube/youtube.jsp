@@ -8,8 +8,10 @@
 <title>youtube.com</title>
 </head>
 <body>
-	<c:forEach var="items" items="${videoCategories}">
-		${items}
+	<c:forEach var="items" items="${videoItems}">
+		${items.id}
+		${items.category}
+		${items.src}
 	</c:forEach>
 
 </body>
