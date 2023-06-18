@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+	<title>Insert title here</title>
+	<link href="http://localhost:8080/youtube/assets/css/index.css" rel="stylesheet" />
 </head>
 <body>
 
